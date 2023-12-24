@@ -10,7 +10,7 @@ const swiper = new Swiper(".swiper", {
 });
 
 swiper.on("click", function (e) {
-  if (confirm("팝업을 허용하여 카드를 다운받으시겠사와요?")) {
+  if (confirm("팝업을 허용하여 \n카드를 다운받으시겠사와요?")) {
     const clickedHash = this.clickedSlide.getAttribute("data-hash");
     const clickedNum = clickedHash.replace("slide", "");
     console.log(clickedNum);
