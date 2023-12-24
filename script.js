@@ -1,4 +1,5 @@
 // 기본 코드
+
 const swiper = new Swiper(".swiper", {
   effect: "cards",
   grabCursor: true,
@@ -42,3 +43,7 @@ shuffleButton.addEventListener("click", function () {
   // location.reload();
   newShuffle();
 });
+document.ontouchstart = () => {
+  shuffleButton.classList.add("touched");
+  setTimeout(() => shuffleButton.classList.remove("touched"), 500);
+};

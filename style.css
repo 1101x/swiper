@@ -17,6 +17,9 @@
   
   font-family: 'TAEBAEKmilkyway', Arial, 'serif';
 }
+button:focus {
+  outline: none;
+}
 html{
   scroll-behavior: smooth;
   cursor:cell;
@@ -54,6 +57,9 @@ p {
   cursor:pointer;
 }
 p:hover{
+  color: lightblue;
+}
+p.touched{
   color: lightblue;
 }
 .swiper{
