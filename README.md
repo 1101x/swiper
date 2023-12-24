@@ -28,4 +28,10 @@ function newShuffle() {
 
   swiper.update();
 }
+
+const shuffleButton = document.querySelector(".shuffle-btn");
+shuffleButton.addEventListener("click", function () {
+  // location.reload();
+  newShuffle();
+});
 ```
