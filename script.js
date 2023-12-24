@@ -9,14 +9,26 @@ const swiper = new Swiper(".swiper", {
   // hashNavigation: true,
 });
 
-swiper.on("click", function (e) {
-  if (confirm("팝업을 허용하여 \n카드를 다운받으시겠사와요?")) {
-    const clickedHash = this.clickedSlide.getAttribute("data-hash");
-    const clickedNum = clickedHash.replace("slide", "");
-    console.log(clickedNum);
-    window.open(`./images/img_${clickedNum}.jpg`, "_blank");
-  }
-});
+if (matchMedia("screen and (min-width: 768px)").matches) {
+  //pc사이즈
+  swiper.on("click", function (e) {
+    if (confirm("팝업을 허용하여 카드를 다운받으시겠사와요?")) {
+      const clickedHash = this.clickedSlide.getAttribute("data-hash");
+      const clickedNum = clickedHash.replace("slide", "");
+      console.log(clickedNum);
+      window.open(`./images/img_${clickedNum}.jpg`, "_blank");
+    }
+  });
+} else {
+  swiper.on("click", function (e) {
+    if (confirm("팝업을 허용하여 \n카드를 다운받으시겠사와요?")) {
+      const clickedHash = this.clickedSlide.getAttribute("data-hash");
+      const clickedNum = clickedHash.replace("slide", "");
+      console.log(clickedNum);
+      window.open(`./images/img_${clickedNum}.jpg`, "_blank");
+    }
+  });
+}
 
 /////새로고침 순서 바꾸기
 const swiperWrapper = document.querySelector(".swiper-wrapper");
