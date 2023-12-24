@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1.7;
+  word-break: keep-all;
+  
+  font-family: 'TAEBAEKmilkyway', Arial, 'serif';
+}
+html{
+  scroll-behavior: smooth;
+  cursor:cell;
+
+}
+body{
+  background:linear-gradient(-30deg, rgb(14, 27, 70), black);
+  height: 100vh;
+  max-width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+.container{
+  padding: 4rem 0;
+
+}
+h1{
+  padding-bottom: 2rem;
+  font-size: 20px;
+  text-shadow: 0px 0.01rem 0px white;
+  color: white;
+}
+p {
+  color: white;
+  padding-top: 2rem;
+  cursor:pointer;
+}
+p:hover{
+  color: lightblue;
+}
+.swiper{
+  position: relative;
+  width: 200px;
+  height: 360px;
+}
+.swiper-slide{
+  border-radius: 10px;
+}
+.swiper img{
+  width: 100%;
+}
+
+
+   /* 모달 스타일 */
+   /* .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .modal-content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.modal-content img{
+  width: 100%;
+} */
