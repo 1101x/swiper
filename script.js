@@ -5,7 +5,7 @@ const swiper = new Swiper(".swiper", {
   centeredSlides: true,
   loop: true,
   centeredSlidesBounds: true,
-  hashNavigation: true,
+  // hashNavigation: true,
 });
 
 swiper.on("click", function (e) {

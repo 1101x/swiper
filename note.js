@@ -152,7 +152,6 @@ function shuffleSlides() {
 
   // 섞인 슬라이드를 다시 컨테이너에 추가
   slides.forEach((slide) => swiperContainer.appendChild(slide));
-
   // 스와이퍼 초기화
   swiper.update();
 }
