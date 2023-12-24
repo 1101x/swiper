@@ -4,7 +4,9 @@
 
 ----
 ### 1. swiper card 이펙트 사용
-[보러가기]:https://github.com/1101x/swiper/tree/main
+
+[보러가기](https://github.com/1101x/swiper/tree/main)
+
 ### 2. 슬라이드 클릭시 팝업창으로 이미지 다운로드 유도
 ### 3. 새로고침 클릭시 카드 더미 랜덤 재배치
 피셔 예이츠 셔플 알고리즘 활용
