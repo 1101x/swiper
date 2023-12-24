@@ -11,6 +11,8 @@
 ### 3. 새로고침 클릭시 카드 더미 랜덤 재배치
 피셔 예이츠 셔플 알고리즘 활용
 ```
+const swiperWrapper = document.querySelector(".swiper-wrapper");
+
 function newShuffle() {
   const cards = Array.from(swiperWrapper.children);
   console.log(cards);
