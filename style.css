@@ -46,10 +46,16 @@ body{
 
 }
 h1{
-  padding-bottom: 2rem;
+  padding-bottom: 0.2rem;
   font-size: 20px;
   text-shadow: 0px 0.01rem 0px white;
   color: white;
+}
+h3 {
+  padding-bottom: 2rem;
+  font-size: 14px;
+
+  color: rgb(105, 126, 228);
 }
 p {
   color: white;
@@ -62,6 +68,7 @@ p:hover{
 p.touched{
   color: lightblue;
 }
+
 .swiper{
   position: relative;
   width: 200px;
@@ -75,23 +82,3 @@ p.touched{
 }
 
 
-   /* 모달 스타일 */
-   /* .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-
-  .modal-content {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-.modal-content img{
-  width: 100%;
-} */

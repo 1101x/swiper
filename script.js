@@ -53,9 +53,9 @@ function newShuffle() {
 const shuffleButton = document.querySelector(".shuffle-btn");
 shuffleButton.addEventListener("click", function () {
   // location.reload();
+  document.ontouchstart = () => {
+    shuffleButton.classList.add("touched");
+    setTimeout(() => shuffleButton.classList.remove("touched"), 500);
+  };
   newShuffle();
 });
-document.ontouchstart = () => {
-  shuffleButton.classList.add("touched");
-  setTimeout(() => shuffleButton.classList.remove("touched"), 500);
-};
