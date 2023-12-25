@@ -61,13 +61,12 @@ h3 {
 }
 p {
   margin-top: 2rem;
-
-}
-a {
   color: white;
   cursor:pointer;
+
 }
-a:hover{
+
+p:hover{
   color: lightblue;
 }
 p.touched{
