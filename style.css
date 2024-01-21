@@ -21,7 +21,9 @@
   font-family: 'TAEBAEKmilkyway', Arial, 'serif';
   scroll-behavior: smooth;
   cursor: cell;
-  background: black;
+}
+a {
+  text-decoration: none;
 }
 
 button:focus {
