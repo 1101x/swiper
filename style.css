@@ -36,7 +36,7 @@ body {
 
 .container {
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .container h1 {
@@ -67,13 +67,16 @@ body {
   width: 100%;
 }
 
-.firstnbanner {
-  width: 300px;
-  margin: 20px auto;
+.firstnbanner,
+.coupang {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 .footer {
   text-align: center;
   color: rgb(63, 75, 135);
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 .footer a {
